@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#p01 {
+    color: blue;
+}
+
+#p02{
+ color: red;
+ margin: 20px;
+ border: 3px solid red;
+}
+</style>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+<p id="p02">This is a paragraph.</p>
+<p id="p01">I am different.</p>
+
+</body>
+</html>

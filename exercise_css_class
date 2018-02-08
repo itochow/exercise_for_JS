@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.error {
+    color: red;
+}
+.right{
+    color: yellow
+}
+</style>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<p class="error">I am different.</p>
+<p>This is a paragraph.</p>
+<p class="right">I am different too.</p>
+
+</body>
+</html>
+

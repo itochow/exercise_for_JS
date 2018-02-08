@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<style>
+.city {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+} 
+.main {
+  text-align: center;
+}
+.xyz{
+  font-family: "Times New Roman", Times, serif;
+}
+</style>
+<body>
+
+<h2 class="main xyz">London</h2>
+<p class="city xyz">Paris</p>
+<h3 class="city main">Tokyo</h3>
+
+
+</body>
+</html>
+

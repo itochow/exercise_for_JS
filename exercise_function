@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First Web Page</h2>
+<p>My First Paragraph.</p>
+
+<p id="demo"></p>
+<button type=button onclick= "MyFunction()">click here to calculate</button>
+</br>
+<button type=button onclick= "MyFunction1()">click here to disappear</button>
+</br>
+<button type=button onclick= "MyFunction2()">click here to appear</button>
+
+<script>
+function MyFunction(){
+document.getElementById("demo").innerHTML = 5 + 6;
+}
+
+function MyFunction1(){
+document.getElementById("demo").style.display="none";
+}
+
+function MyFunction2(){
+document.getElementById("demo").style.display="";
+}
+</script>
+
+</body>
+</html> 
+
